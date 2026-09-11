@@ -1,0 +1,614 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Setembro Amarelo — Uma conversa pode mudar uma história</title>
+<meta name="description" content="Projeto educativo interativo sobre Setembro Amarelo, prevenção do suicídio, saúde mental, preconceito e bullying." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ============ NAVEGAÇÃO ============ -->
+<header class="nav" id="navbar">
+  <div class="nav-inner">
+    <a href="#inicio" class="nav-brand" aria-label="Voltar ao início">
+      <span class="brand-laco-wrap"><img src="assets/laco-setembro-amarelo.png" alt="Laço amarelo do Setembro Amarelo" class="brand-laco" /></span>
+      <span class="brand-text">Setembro<span>Amarelo</span></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-menu" id="navMenu" aria-label="Menu principal">
+      <a href="#inicio" class="nav-link active">Início</a>
+      <a href="#setembro" class="nav-link">Setembro Amarelo</a>
+      <a href="#saude-mental" class="nav-link">Saúde Mental</a>
+      <a href="#preconceito" class="nav-link">Preconceito</a>
+      <a href="#bullying" class="nav-link">Bullying</a>
+      <a href="#experiencia" class="nav-link">Experiência</a>
+      <a href="#quiz" class="nav-link">Quiz</a>
+      <a href="#como-ajudar" class="nav-link">Como Ajudar</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- ============ 1. HERO ============ -->
+<section class="hero" id="inicio">
+  <div class="hero-glow hero-glow-1"></div>
+  <div class="hero-glow hero-glow-2"></div>
+  <div class="container hero-grid">
+    <div class="hero-text reveal">
+      <span class="hero-tag">💛 Setembro Amarelo · Conscientização e prevenção</span>
+      <h1 class="hero-title">Uma conversa pode mudar uma <em>história.</em></h1>
+      <p class="hero-subtitle">Setembro Amarelo: informação, acolhimento e cuidado para construir uma sociedade onde ninguém precise enfrentar tudo sozinho.</p>
+      <div class="hero-actions">
+        <a href="#setembro" class="btn btn-primary">Explorar o projeto</a>
+        <a href="#experiencia" class="btn btn-outline">Começar experiência</a>
+      </div>
+      <p class="hero-quote">"Escutar também é uma forma de cuidar."</p>
+    </div>
+    <div class="hero-laco-wrap reveal">
+      <div class="hero-laco-ring"></div>
+      <img src="assets/laco-setembro-amarelo.png" alt="Laço amarelo, símbolo da campanha Setembro Amarelo" class="hero-laco" />
+      <span class="hero-laco-label">Setembro de conscientização</span>
+    </div>
+  </div>
+  <a href="#setembro" class="scroll-hint" aria-label="Rolar para a próxima seção"><span></span></a>
+</section>
+
+<!-- ============ 2. SETEMBRO AMARELO ============ -->
+<section class="section" id="setembro">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Sobre a campanha</span>
+      <h2 class="section-title">O que é o <span class="text-gradient">Setembro Amarelo</span>?</h2>
+      <p class="section-sub">O Setembro Amarelo é uma campanha de conscientização sobre a prevenção do suicídio e a importância da saúde mental. Durante este mês, escolas, comunidades e empresas se mobilizam para falar sobre sentimento, sofrimento emocional e apoio.</p>
+    </div>
+
+    <div class="info-grid reveal">
+      <article class="info-card">
+        <div class="info-icon">📅</div>
+        <h3>Por que setembro?</h3>
+        <p>O dia 10 de setembro é o Dia Mundial de Prevenção ao Suicídio. Por isso, o mês inteiro se tornou um momento para informação, escuta e cuidado.</p>
+      </article>
+      <article class="info-card">
+        <div class="info-icon">🗣️</div>
+        <h3>Por que falar?</h3>
+        <p>Falar sobre saúde mental com respeito ajuda a reconhecer situações de sofrimento, combater o estigma e ampliar o acesso à ajuda.</p>
+      </article>
+      <article class="info-card">
+        <div class="info-icon">🚫</div>
+        <h3>Combate ao estigma</h3>
+        <p>Quem sofre não é "fraco" ou "dramático". O estigma afasta as pessoas do apoio e dificulta o acolhimento. Tratamento e cuidado salvam vidas.</p>
+      </article>
+      <article class="info-card">
+        <div class="info-icon">🤲</div>
+        <h3>Procurar ajuda</h3>
+        <p>Buscar apoio com pessoas de confiança ou profissionais é um passo de coragem — e não de fraqueza. Ninguém precisa enfrentar tudo sozinho.</p>
+      </article>
+    </div>
+
+    <div class="pillars reveal">
+      <div class="pillar-card">
+        <span class="pillar-emoji">🎗️</span>
+        <h4>Conscientização</h4>
+        <p>Informação ajuda a reconhecer situações de sofrimento e a buscar apoio.</p>
+      </div>
+      <div class="pillar-card">
+        <span class="pillar-emoji">💬</span>
+        <h4>Conversar</h4>
+        <p>Uma conversa respeitosa pode abrir espaço para que alguém se sinta ouvido.</p>
+      </div>
+      <div class="pillar-card">
+        <span class="pillar-emoji">🤝</span>
+        <h4>Acolher</h4>
+        <p>Demonstrar presença e empatia pode fazer diferença.</p>
+      </div>
+      <div class="pillar-card">
+        <span class="pillar-emoji">🧠</span>
+        <h4>Cuidar</h4>
+        <p>Saúde mental também merece atenção, cuidado e acompanhamento.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3. SAÚDE MENTAL ============ -->
+<section class="section section-alt" id="saude-mental">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Cuidar de si</span>
+      <h2 class="section-title">Saúde <span class="text-gradient">Mental</span></h2>
+      <p class="section-sub">Saúde mental envolve nossas emoções, pensamentos, relacionamentos e a forma como lidamos com as dificuldades. É parte de quem somos — e merece o mesmo cuidado que o resto do corpo.</p>
+    </div>
+
+    <div class="emotion-grid reveal">
+      <div class="emotion-chip"><span>🧘</span> Estresse</div>
+      <div class="emotion-chip"><span>🌪️</span> Ansiedade</div>
+      <div class="emotion-chip"><span>🌙</span> Solidão</div>
+      <div class="emotion-chip"><span>🌧️</span> Tristeza</div>
+      <div class="emotion-chip"><span>😨</span> Medo</div>
+      <div class="emotion-chip"><span>👥</span> Pressão social</div>
+      <div class="emotion-chip"><span>⚖️</span> Baixa autoestima</div>
+      <div class="emotion-chip"><span>💫</span> Sensação de não pertencer</div>
+    </div>
+
+    <div class="note-card reveal">
+      <p><strong>Importante:</strong> sentir emoções difíceis faz parte da vida. Mas quando o sofrimento é intenso, dura muito tempo ou atrapalha o dia a dia, ele merece atenção e apoio — sem que você precise ter um diagnóstico para pedir ajuda.</p>
+    </div>
+
+    <div class="help-box reveal">
+      <div class="section-mini-head">
+        <span class="eyebrow eyebrow-dark">Sinais de alerta</span>
+        <h3>Quando é importante pedir ajuda?</h3>
+      </div>
+      <div class="signs-grid">
+        <div class="sign-item">🔒 Isolamento</div>
+        <div class="sign-item">🔁 Mudanças importantes no comportamento</div>
+        <div class="sign-item">🌑 Sofrimento emocional persistente</div>
+        <div class="sign-item">🎯 Perda de interesse pelas atividades</div>
+        <div class="sign-item">🌫️ Dificuldade para lidar com situações do cotidiano</div>
+      </div>
+      <p class="help-final">Você não precisa resolver tudo sozinho.</p>
+    </div>
+
+    <div class="laco-divider reveal">
+      <img src="assets/laco-setembro-amarelo.png" alt="" class="laco-small" aria-hidden="true" />
+    </div>
+  </div>
+</section>
+
+<!-- ============ 4. PRECONCEITO ============ -->
+<section class="section" id="preconceito">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Diversidade e respeito</span>
+      <h2 class="section-title">Preconceito: <span class="text-gradient">um olhar para dentro de si</span></h2>
+      <p class="section-sub">Preconceito é o ato de julgar ou excluir alguém por características que fazem parte da história da pessoa. Combater o preconceito é proteger o direito de cada um ser acolhido e pertencer. Toque nos cards para explorar.</p>
+    </div>
+
+    <div class="preconceito-grid reveal" id="preconceitoGrid">
+      <div class="preconceito-card">
+        <button class="preconceito-btn" aria-expanded="false">
+          <span class="preconceito-emoji">🌍</span>
+          <span class="preconceito-info">
+            <strong>Racismo</strong>
+            <small>Preconceito ou discriminação relacionada à raça ou características étnico-raciais.</small>
+          </span>
+          <span class="preconceito-icon">+</span>
+        </button>
+        <div class="preconceito-body">
+          <p>Pode aparecer em piadas, xingamentos, exclusões e barreiras de oportunidade. Toda pessoa tem o direito de ser respeitada, independentemente da sua origem ou identidade.</p>
+          <p><strong>Como contribuir:</strong> reconhecer, escutar pessoas racializadas, denunciar situações de racismo e não se omitir quando presenciar alguma injustiça.</p>
+        </div>
+      </div>
+
+      <div class="preconceito-card">
+        <button class="preconceito-btn" aria-expanded="false">
+          <span class="preconceito-emoji">🏳️‍🌈</span>
+          <span class="preconceito-info">
+            <strong>Homofobia</strong>
+            <small>Preconceito ou discriminação contra pessoas por sua orientação sexual.</small>
+          </span>
+          <span class="preconceito-icon">+</span>
+        </button>
+        <div class="preconceito-body">
+          <p>Manifesta-se em piadas, ofensas e exclusão. Toda pessoa tem o direito de viver sua afetividade e identidade com segurança e dignidade.</p>
+          <p><strong>Como contribuir:</strong> combata piadas e termos pejorativos, respeite a diversidade e acolha pessoas sem condições.</p>
+        </div>
+      </div>
+
+      <div class="preconceito-card">
+        <button class="preconceito-btn" aria-expanded="false">
+          <span class="preconceito-emoji">🏳️</span>
+          <span class="preconceito-info">
+            <strong>Transfobia</strong>
+            <small>Preconceito ou discriminação contra pessoas trans.</small>
+          </span>
+          <span class="preconceito-icon">+</span>
+        </button>
+        <div class="preconceito-body">
+          <p>Inclui desrespeito à identidade de gênero, ao nome social e à dignidade da pessoa. Pessoas trans têm direito à vida, ao respeito e ao pertencimento.</p>
+          <p><strong>Como contribuir:</strong> use o nome e pronomes corretos, corrija comentários preconceituosos e se informe com respeito.</p>
+        </div>
+      </div>
+
+      <div class="preconceito-card">
+        <button class="preconceito-btn" aria-expanded="false">
+          <span class="preconceito-emoji">🌎</span>
+          <span class="preconceito-info">
+            <strong>Xenofobia</strong>
+            <small>Preconceito contra pessoas por sua origem ou nacionalidade.</small>
+          </span>
+          <span class="preconceito-icon">+</span>
+        </button>
+        <div class="preconceito-body">
+          <p>Aparece na rejeição de quem vem de outros lugares, países ou regiões. Todas as pessoas merecem ser tratadas com dignidade, onde quer que tenham nascido.</p>
+          <p><strong>Como contribuir:</strong> valorize as diferenças culturais, acolha novas pessoas e jamais use a origem para desqualificar alguém.</p>
+        </div>
+      </div>
+
+      <div class="preconceito-card">
+        <button class="preconceito-btn" aria-expanded="false">
+          <span class="preconceito-emoji">🕰️</span>
+          <span class="preconceito-info">
+            <strong>Etarismo</strong>
+            <small>Preconceito ou discriminação relacionada à idade.</small>
+          </span>
+          <span class="preconceito-icon">+</span>
+        </button>
+        <div class="preconceito-body">
+<p>É o desrespeito ou a desqualificação de pessoas pela idade — tanto de idosas quanto de jovens. Todas as idades têm valor, experiência e direitos.</p>
+          <p><strong>Como contribuir:</strong> escute pessoas de todas as idades, evite termos de desvalorização e respeite cada trajetória.</p>
+        </div>
+      </div>
+
+      <div class="preconceito-card">
+        <button class="preconceito-btn" aria-expanded="false">
+          <span class="preconceito-emoji">♿</span>
+          <span class="preconceito-info">
+            <strong>Capacitismo</strong>
+            <small>Preconceito ou discriminação contra pessoas com deficiência.</small>
+          </span>
+          <span class="preconceito-icon">+</span>
+        </button>
+        <div class="preconceito-body">
+          <p>Acontece quando a deficiência é tratada como inferior, "menos capaz" ou incapaz. A pessoa com deficiência pode — e merece — acesso, respeito e oportunidades.</p>
+<p><strong>Como contribuir:</strong> acessibilidade é um direito, não um favor. Evite termos hostis, ofereça ajuda quando apropriado e inclua sem rebaixar.</p>
+        </div>
+      </div>
+
+      <div class="preconceito-card">
+        <button class="preconceito-btn" aria-expanded="false">
+          <span class="preconceito-emoji">⛪</span>
+          <span class="preconceito-info">
+            <strong>Intolerância religiosa</strong>
+            <small>Desrespeito ou discriminação por causa da religião ou crença de uma pessoa.</small>
+          </span>
+          <span class="preconceito-icon">+</span>
+        </button>
+        <div class="preconceito-body">
+          <p>Quando a crença — ou a ausência de crença — de alguém é motivo de desrespeito, zombaria ou perseguição. A liberdade de crença é um direito de todos.</p>
+          <p><strong>Como contribuir:</strong> respeite os símbolos e práticas religiosas alheios e posicione-se contra qualquer ofensa nesse sentido.</p>
+        </div>
+      </div>
+
+      <div class="preconceito-card">
+        <button class="preconceito-btn" aria-expanded="false">
+          <span class="preconceito-emoji">👤</span>
+          <span class="preconceito-info">
+            <strong>Preconceito pela aparência</strong>
+            <small>Julgar ou excluir alguém por características físicas ou aparência.</small>
+          </span>
+          <span class="preconceito-icon">+</span>
+        </button>
+        <div class="preconceito-body">
+          <p>Roupas, estilo, corpo e traços não definem o valor de ninguém. Comentários sobre a aparência podem causar muita dor e sentimentos de não pertencimento.</p>
+          <p><strong>Como contribuir:</strong> evite comentários sobre o corpo ou a aparência do outro e elogie características como atitudes e esforço.</p>
+        </div>
+      </div>
+
+      <div class="preconceito-card">
+        <button class="preconceito-btn" aria-expanded="false">
+          <span class="preconceito-emoji">💰</span>
+          <span class="preconceito-info">
+            <strong>Preconceito social</strong>
+            <small>Discriminar alguém por sua condição socioeconômica.</small>
+          </span>
+          <span class="preconceito-icon">+</span>
+        </button>
+        <div class="preconceito-body">
+          <p>Acontece ao tratar pessoas com desrespeito ou exclusão por causa da renda, da moradia ou das posses. Nenhuma pessoa vale menos por sua condição social.</p>
+          <p><strong>Como contribuir:</strong> valorize a pessoa pela sua história e caráter, e avance quando situações de exclusão social acontecem.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 5. BULLYING ============ -->
+<section class="section section-alt" id="bullying">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Respeito começa no cotidiano</span>
+      <h2 class="section-title">Bullying e <span class="text-gradient">Cyberbullying</span></h2>
+      <p class="section-sub">Bullying são agressões repetidas, intencionais e voltadas a uma pessoa, podendo ser físicas, verbais ou em forma de exclusão. Quando acontecem nos ambientes digitais, recebem o nome de cyberbullying.</p>
+    </div>
+
+    <div class="bully-grid reveal">
+      <article class="bully-card">
+        <div class="bully-head">
+          <span class="bully-emoji">🏫</span>
+          <h3>Bullying presencial</h3>
+        </div>
+        <ul class="bully-list">
+          <li>Apelidos ofensivos</li>
+          <li>Humilhação</li>
+          <li>Exclusão proposital</li>
+          <li>Ameaças</li>
+          <li>Comentários preconceituosos</li>
+          <li>Espalhar rumores</li>
+        </ul>
+      </article>
+
+      <article class="bully-card">
+        <div class="bully-head">
+          <span class="bully-emoji">📱</span>
+          <h3>Cyberbullying</h3>
+        </div>
+        <ul class="bully-list">
+          <li>Comentários ofensivos em redes</li>
+          <li>Exposição indevida</li>
+          <li>Mensagens de humilhação</li>
+          <li>Grupos usados para excluir alguém</li>
+          <li>Compartilhamento de conteúdo para constranger</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="compare-box reveal">
+      <div class="compare-title">Bullying presencial × Cyberbullying</div>
+      <div class="compare-cols">
+        <div class="compare-col compare-presencial">
+          <h4>Diferenças</h4>
+          <p><strong>Presencial:</strong> acontece cara a cara, tem testemunhas do ambiente, marca o horário e local.</p>
+          <p><strong>Cyberbullying:</strong> pode acontecer a qualquer hora, é mais disperso, pode atingir mais pessoas e deixar rastros digitais.</p>
+        </div>
+        <div class="compare-col compare-igual">
+          <h4>Em comum</h4>
+          <p>Ambos geram dor, exclusão e sofrimento emocional — e ambos merecem atenção e cuidados.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="quote-card reveal">
+      <blockquote>"O impacto pode ir muito além daquele momento."</blockquote>
+<p>Bullying e discriminação podem afetar o bem-estar emocional, os relacionamentos e a experiência escolar. Situações repetidas de violência, exclusão e discriminação podem contribuir para o sofrimento emocional — e o suicídio é um fenômeno complexo, que envolve muitos fatores. Ninguém deve passar por isso em silêncio.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 6. EXPERIÊNCIA INTERATIVA ============ -->
+<section class="section section-dark" id="experiencia">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow eyebrow-dark">Experiência interativa</span>
+      <h2 class="section-title">E se fosse <span class="text-gradient">com você?</span></h2>
+      <p class="section-sub">Situações fictícias para você se colocar no lugar do outro — e descobrir que pequenas escolhas fazem diferença. Cada boa atitude vale pontos no seu progresso.</p>
+    </div>
+
+    <div id="gameApp" class="game-app app-shell reveal" aria-live="polite"></div>
+  </div>
+</section>
+
+<!-- ============ 7. JOGO ESCOLHA A ATITUDE ============ -->
+<section class="section section-dark section-dark-alt" id="atitude">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow dark-eyebrow">Mini-jogo</span>
+      <h2 class="section-title">Escolha a <span class="text-gradient">atitude</span></h2>
+      <p class="section-sub">Atitudes de cuidado se aprendem e se praticam. Escolha a atitude mais acolhedora em cada situação — cada acerto vale <strong>+10 pontos</strong>.</p>
+    </div>
+    <div id="atitudeApp" class="game-app reveal" aria-live="polite"></div>
+  </div>
+</section>
+
+<!-- ============ 8. QUIZ ============ -->
+<section class="section section-quiz" id="quiz">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Teste seus conhecimentos</span>
+      <h2 class="section-title">Quiz <span class="text-gradient">Setembro</span></h2>
+      <p class="section-sub">8 perguntas sobre o tema. Leia com calma, escolha a alternativa e no final descubra quantas você acertou — junto com uma explicação educativa.</p>
+    </div>
+    <div id="quizApp" class="quiz-app reveal" aria-live="polite"></div>
+  </div>
+</section>
+
+<!-- ============ 9. COMO AJUDAR ============ -->
+<section class="section section-dark section-help" id="como-ajudar">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow dark">Você pode fazer a diferença</span>
+      <h2 class="section-title">Como <span class="text-gradient">ajudar?</span></h2>
+<p class="section-sub">Quando você percebe que alguém não está bem, sua presença importa. Quatro passos simples podem ser o começo de um acolhimento.</p>
+    </div>
+
+    <div class="steps reveal">
+      <div class="step-card">
+        <span class="step-num">01</span>
+        <h3>PERCEBA</h3>
+        <p>Observe mudanças e sinais de que alguém pode estar passando por dificuldades.</p>
+      </div>
+      <div class="step-card">
+        <span class="step-num">02</span>
+        <h3>ESCUTE</h3>
+        <p>Converse com respeito e sem julgamentos.</p>
+      </div>
+      <div class="step-card">
+        <span class="step-num">03</span>
+        <h3>ACOLHA</h3>
+        <p>Demonstre que a pessoa não precisa enfrentar tudo sozinha.</p>
+      </div>
+      <div class="step-card">
+        <span class="step-num">04</span>
+        <h3>PROCURE AJUDA</h3>
+        <p>Incentive a busca por um adulto de confiança, escola, profissional de saúde ou serviço adequado.</p>
+      </div>
+    </div>
+
+    <div class="help-callout reveal">
+      <p><strong>Se você estiver preocupado com alguém, não carregue essa responsabilidade sozinho.</strong> Procure um adulto de confiança.</p>
+    </div>
+
+    <div class="cvv-box reveal">
+      <img src="assets/laco-setembro-amarelo.png" alt="" class="laco-small" aria-hidden="true" />
+      <div>
+        <h3>CVV — Centro de Valorização da Vida</h3>
+<p>O <strong>CVV (188)</strong> é um serviço gratuito de apoio emocional e prevenção do suicídio, disponível por telefone. Ele funciona por telefone, chat e e-mail — em qualquer hora do dia, todos os dias da semana. Falar com alguém preparado para ouvir faz a diferença.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 10. MITOS E VERDADES ============ -->
+<section class="section" id="mitos">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Informação que liberta</span>
+      <h2 class="section-title">Mitos e <span class="text-gradient">Verdades</span></h2>
+      <p class="section-sub">O que é verdade e o que é mito quando falamos de saúde mental e acolhimento? Clique nos cards para girar e descobrir.</p>
+    </div>
+
+    <div class="myth-grid reveal" id="mythGrid">
+      <div class="myth-card" role="button" tabindex="0" aria-expanded="false">
+        <div class="myth-front"><p>"Falar sobre saúde mental sempre piora a situação."</p></div>
+        <div class="myth-back"><span class="myth-badge myth-mito">MITO</span><p>Falar com respeito e sem julgamento tende a aliviar — e não intensificar — o sofrimento. O silêncio é que isola.</p></div>
+      </div>
+      <div class="myth-card" role="button" tabindex="0" aria-expanded="false">
+        <div class="myth-front"><p>"Quem tem muitos amigos nunca sofre emocionalmente."</p></div>
+        <div class="myth-back"><span class="myth-badge myth-mito">MITO</span><p>Só que todas as pessoas podem passar por momentos difíceis, independentemente de quantos amigos têm. O que importa é saber que não precisa estar sozinho.</p></div>
+      </div>
+      <div class="myth-card" role="button" tabindex="0" aria-expanded="false">
+        <div class="myth-front"><p>"Bullying e discriminação podem causar muito sofrimento."</p></div>
+        <div class="myth-back"><span class="myth-badge myth-verdade">VERDADE</span><p>Situações de violência e exclusão podem gerar dor emocional profunda. Acolhimento e apoio são essenciais para quem sofre.</p></div>
+      </div>
+      <div class="myth-card" role="button" tabindex="0" aria-expanded="false">
+        <div class="myth-front"><p>"Pedir ajuda é sinal de fraqueza."</p></div>
+        <div class="myth-back"><span class="myth-badge myth-mito">MITO</span><p>Pedir ajuda é um ato de força e autocuidado. Procurar apoio de pessoas de confiança e profissionais é um passo saudável.</p></div>
+      </div>
+      <div class="myth-card" role="button" tabindex="0" aria-expanded="false">
+        <div class="myth-front"><p>"Só adultos têm problemas de saúde mental."</p></div>
+        <div class="myth-back"><span class="myth-badge myth-mito">MITO</span><p>Pessoas de todas as idades podem passar por sofrimento emocional. Por isso acolher e conversar com jovens é tão importante.</p></div>
+      </div>
+      <div class="myth-card" role="button" tabindex="0" aria-expanded="false">
+        <div class="myth-front"><p>"Ouvir sem julgar os outros é uma forma de cuidado."</p></div>
+        <div class="myth-back"><span class="myth-badge myth-verdade">VERDADE</span><p>Ser ouvido com respeito e sem críticas ajuda a pessoa a se sentir segura e menos sozinha. Escuta também é cuidado.</p></div>
+      </div>
+      <div class="myth-card" role="button" tabindex="0" aria-expanded="false">
+        <div class="myth-front"><p>"Falar sobre o tema pode aumentar o risco."</p></div>
+        <div class="myth-back"><span class="myth-badge myth-mito">MITO</span><p>Falar sobre o tema, com respeito e informação responsável, ajuda a educação sobre o tema. O risco ao silêncio e ao desamparo.</p></div>
+      </div>
+      <div class="myth-card" role="button" tabindex="0" aria-expanded="false">
+        <div class="myth-front"><p>"Um acolhimento simples pode fazer diferença."</p></div>
+        <div class="myth-back"><span class="myth-badge myth-verdade">VERDADE</span><p>Uma conversa respeitosa e uma presença cuidadosa podem abrir espaço para que alguém se sinta ouvido e busque os canais de apoio.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 11. MURAL POSITIVO ============ -->
+<section class="section section-mural" id="mural">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Sua voz importa</span>
+      <h2 class="section-title">Uma mensagem pode <span class="text-gradient">fazer diferença</span></h2>
+      <p class="section-sub">Deixe uma mensagem positiva e acolhedora neste mural. Suas palavras podem tocar alguém que lê.</p>
+    </div>
+
+    <form class="mural-form reveal" id="muralForm" autocomplete="off">
+      <label class="sr-only" for="muralInput">Escreva uma mensagem positiva</label>
+      <input type="text" id="muralInput" maxlength="140" placeholder='Escreva: "Você não precisa enfrentar tudo sozinho."' required />
+      <button type="submit" class="btn btn-primary">💛 Adicionar mensagem</button>
+    </form>
+
+    <div id="muralGrid" class="mural-grid reveal" aria-live="polite"></div>
+  </div>
+</section>
+
+<!-- ============ 12. MISSÃO DO DIA ============ -->
+<section class="section section-dark section-missao" id="missao">
+  <div class="container">
+    <div class="missao-card reveal">
+      <span class="missao-icon">🎯</span>
+      <span class="eyebrow dark">Desafio de acolhimento</span>
+      <h2 class="section-title">Sua missão de hoje</h2>
+      <p id="missaoText" class="missao-text">—</p>
+      <div class="missao-actions">
+        <button id="missaoNova" class="btn btn-outline-light">↺ Nova missão</button>
+        <button id="missaoConcluir" class="btn btn-primary">✓ Concluí a missão</button>
+      </div>
+      <p class="missao-feedback" id="missaoFeedback" aria-live="polite"></p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 13. PAINEL DE PROGRESSO ============ -->
+<section class="section section-progress" id="progresso">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Seu percurso</span>
+      <h2 class="section-title">Painel de <span class="text-gradient">progresso</span></h2>
+      <p class="section-sub">Veja como você já avançou neste projeto. Tudo funciona direto no navegador, sem banco de dados.</p>
+    </div>
+
+    <div class="progress-dash reveal">
+      <div class="progress-top">
+        <div class="progress-info">
+          <span class="progress-label">Seu progresso</span>
+          <strong id="progressPercent">0%</strong>
+        </div>
+        <div class="progress-bar"><span id="progressFill"></span></div>
+      </div>
+
+      <div class="progress-stats" id="progressStats">
+        <div class="stat"><span>🗂️</span><strong id="statLecoes">0</strong><small>Seções visitadas</small></div>
+        <div class="stat"><span>🧠</span><strong id="statQuiz">0</strong><small>Quiz concluído</small></div>
+        <div class="stat"><span>🎭</span><strong id="statExp">0</strong><small>Experiência concluída</small></div>
+        <div class="stat"><span>🎯</span><strong id="statMissoes">0</strong><small>Missões realizadas</small></div>
+        <div class="stat"><span>⭐</span><strong id="statPontos">0</strong><small>Pontuação total</small></div>
+      </div>
+
+      <button id="resetProgress" class="btn btn-ghost">Zerar progresso</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 14. LEMBRE-SE ============ -->
+<section class="section section-lembre" id="lembre">
+  <div class="container">
+    <h2 class="lembre-title reveal">Lembre-se</h2>
+    <div class="lembre-grid">
+      <div class="lembre-item reveal"><span>👂</span><p>"Ouvir é importante."</p></div>
+      <div class="lembre-item reveal"><span>🤍</span><p>"Pedir ajuda não diminui ninguém."</p></div>
+      <div class="lembre-item reveal"><span>💛</span><p>"Respeito também é cuidado."</p></div>
+      <div class="lembre-item reveal"><span>⭐</span><p>"Você pode fazer diferença na vida de alguém."</p></div>
+      <div class="lembre-item reveal"><span>💬</span><p>"Uma atitude de acolhimento pode começar com uma simples conversa."</p></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ 15. RODAPÉ ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-brand">
+      <div class="nav-brand footer-brand-logo">
+        <span class="nav-laco-wrap"><img src="assets/laco-setembro-amarelo.png" alt="" class="brand-laco" aria-hidden="true" /></span>
+        <span class="brand-text">Setembro<span>Amarelo</span></span>
+      </div>
+      <p>Informação • Respeito • Escuta • Acolhimento</p>
+    </div>
+    <hr class="footer-hr" />
+    <div class="footer-bottom">
+      <p>Projeto educativo desenvolvido sobre orientação do Professor Danilo Couto Silva.</p>
+      <p>Escola Estadual Amilcare Mattei - URE Marília</p>
+      <p>Desenvolvido por Lucas Gabriel Ferreira dos Santos</p>
+      <p class="footer-note">Em situações de sofrimento ou preocupação, procure um adulto de confiança e ajuda profissional. Ligue 188 — CVV, gratuitamente.</p>
+    </div>
+  </div>
+</footer>
+
+<button class="back-top" id="backTop" aria-label="Voltar ao topo">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
